@@ -1,10 +1,10 @@
 required to install:
 
-Java 21
-PostgresSQL
-RabbitMQ
-NodeJS (last lts)
-Angular 19
+- Java 21
+- PostgresSQL
+- RabbitMQ
+- NodeJS (last lts)
+- Angular 19
 
 1) Run postgres server (google it for windows)
 
