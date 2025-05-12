@@ -32,5 +32,5 @@ for Mac: brew services start rabbitmq
    (java creates database table and connection, also creates a queue for rabbitmq)
 
 6) in angular app you have to run
-   npm install
-   ng serve
+   - npm install
+   - ng serve
