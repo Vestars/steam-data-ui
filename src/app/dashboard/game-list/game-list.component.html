@@ -1,0 +1,8 @@
+<div class="flex flex-wrap gap-3">
+    <p-card *ngFor="let game of games$ | async" [style]="{ width: '25rem', overflow: 'hidden' }">
+        <ng-template #header>
+            <img alt="Game image" [style]="{ width: '25rem', height: '14rem' }" [src]="game.imageUrl" />
+        </ng-template>
+        <ng-template #title> {{ game.name }} </ng-template>
+    </p-card>
+</div>
